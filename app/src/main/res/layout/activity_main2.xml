@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="@drawable/layoutapp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/iconmoney" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:background="@drawable/layoutapp"
+        android:layout_height="37dp"
+        android:textColor="#614A48"
+        android:textSize="17dp"
+        android:gravity="center"
+
+        android:text="WELCOM BACK!" />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:background="@drawable/layoutapp"
+        android:layout_height="37dp"
+        android:textColor="#614A48"
+        android:textSize="17dp"
+        android:gravity="center"
+        android:text="Vui lòng chọn chế độ phù hợp với bạn" />
+
+    <ListView
+        android:id="@+id/LvCheDo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="70dp" />
+
+
+
+</LinearLayout>

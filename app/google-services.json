@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "639433136017",
+    "firebase_url": "https://design-ui-login-8513d-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "design-ui-login-8513d",
+    "storage_bucket": "design-ui-login-8513d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639433136017:android:e33120333dcd42abdd2c30",
+        "android_client_info": {
+          "package_name": "com.example.designuilogin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm_EGyv1jVQCFZw8kV7Z3Gi4GUdofNSww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

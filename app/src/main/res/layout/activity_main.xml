@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/anh4"
+    tools:context=".MainActivity" >
+
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="200dp"
+        android:textSize="60dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"
+        android:textColor="#4E28A3"
+        android:layout_height="wrap_content"
+        android:text="Login" />
+
+    <EditText
+        android:id="@+id/edtUser"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:hint="Nhập tài khoản email"
+        android:drawableStart="@drawable/email"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColorHint="#BAB7B7"
+        android:inputType="textEmailAddress"
+        android:textColor="#114C7C" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/etNumberPasswordLayout"
+        android:layout_width="350dp"
+
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:drawableStart="@drawable/password"
+            android:ems="10"
+            android:hint="Nhập mật khẩu"
+            android:inputType="text"
+            android:paddingStart="10dp"
+            android:textColor="#114C7C" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <TextView
+        android:id="@+id/txtFogotPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize = "15sp"
+        android:textColor="#0B0B0A"
+        android:layout_marginLeft="225dp"
+        android:text="Quên mật khẩu" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnDangNhap"
+        android:layout_width="300dp"
+        android:layout_marginLeft="30dp"
+        android:background="#4E28A3"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:text="Đăng nhập" />
+
+    <Button
+        android:id="@+id/btnDangKi"
+        android:layout_width="300dp"
+        android:layout_marginLeft="30dp"
+        android:background="#4E28A3"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:text="Đăng kí với Google" />
+
+
+
+</LinearLayout>
